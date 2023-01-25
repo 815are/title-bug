@@ -10,4 +10,4 @@ Scenario:
 2. Run the `Title Bug: Change title of webview tab`.
 
 In VSCode - counter will keep old value.
-In VSCode Insiders - counter will be reset, because iframe is reloaded after title change in - (Change title)[https://github.com/815are/title-bug/blob/main/src/extension.ts#L21]
+In VSCode Insiders - counter will be reset, because iframe is reloaded after title change in - [Change title](https://github.com/815are/title-bug/blob/main/src/extension.ts#L137)
