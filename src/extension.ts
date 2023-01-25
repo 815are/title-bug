@@ -134,7 +134,7 @@ class TitleBugPanel {
 
   public changeTitle() {
     const date = Date.now();
-    this._panel.title = `Change titmestamp ${date}`;
+    this._panel.title = `Change timestamp ${date}`;
   }
 
   public dispose() {
