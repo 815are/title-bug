@@ -23,7 +23,7 @@
 		"commands": [
 			{
 				"command": "titleBug.start",
-				"title": "Start title bug",
+				"title": "Custom menu option",
 				"category": "Title Bug"
 			},
 			{
@@ -31,7 +31,16 @@
 				"title": "Change title of webview tab",
 				"category": "Title Bug"
 			}
-		]
+		],
+		"menus": {
+			"explorer/context": [
+				{
+					"when": "resourceExtname == .xml",
+					"command": "titleBug.start",
+					"group": "navigation"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
